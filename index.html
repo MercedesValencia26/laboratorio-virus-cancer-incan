@@ -13,7 +13,28 @@ section{display:none;animation:fade .18s ease}section.active{display:block}@keyf
 .timeline{border-left:4px solid var(--a);margin-left:12px;padding-left:20px}.era{margin:0 0 24px}.era b{color:var(--b)}
 footer{text-align:center;color:var(--muted);font-size:12px;padding:25px 0}.note{font-size:13px;color:var(--muted)}
 @media(min-width:620px){.menu,.people{grid-template-columns:1fr 1fr}h1{font-size:46px}}
-.pubmed-btn{display:inline-block;margin-top:12px;padding:11px 16px;border-radius:999px;background:var(--d);color:white;text-decoration:none;font-weight:700;font-size:14px}.pubmed-btn:hover{opacity:.9}.photo-pending{min-height:180px;display:flex;align-items:center;justify-content:center;color:#64777c}</style></head><body>
+.pubmed-btn{display:inline-block;margin-top:12px;padding:11px 16px;border-radius:999px;background:var(--d);color:white;text-decoration:none;font-weight:700;font-size:14px}.pubmed-btn:hover{opacity:.9}.photo-pending{min-height:180px;display:flex;align-items:center;justify-content:center;color:#64777c}
+/* --- Ajuste móvil de fotografías de semblanzas --- */
+@media (max-width: 700px) {
+  section[id="alejandro"] .profile-img,
+  section[id="rocio"] .profile-img,
+  section[id="mercedes"] .profile-img,
+  section[id="miriam"] .profile-img,
+  section[id="aurora"] .profile-img,
+  section[id="elizabeth"] .profile-img,
+  section[id="jazmin"] .profile-img {
+    width: 100% !important;
+    height: auto !important;
+    aspect-ratio: auto !important;
+    object-fit: contain !important;
+    object-position: center center !important;
+    display: block !important;
+    max-height: none !important;
+    border-radius: 24px !important;
+  }
+}
+
+</style></head><body>
 <header><div class="brand">80 ANIVERSARIO · INCan</div><button class="home" onclick="go('inicio')">☰ Índice</button></header>
 <main>
 <section id="inicio" class="active"><div class="hero"><div class="eyebrow">Laboratorio de Virus y Cáncer</div><h1>Trayectoria científica</h1><p class="lead">De la virología molecular a los modelos tumorales, los datos y la investigación traslacional.</p><p>Explora quiénes somos, qué investigamos y cómo ha evolucionado nuestra ciencia.</p></div>
