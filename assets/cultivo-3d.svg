@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="520" viewBox="0 0 1200 520">
+<rect width="1200" height="520" rx="30" fill="#f5fbfb"/>
+<style>.t{font-family:Arial,sans-serif;fill:#08333f}.h{font-weight:700;font-size:25px}.s{font-size:18px}.a{font-size:38px;fill:#109288}.box{fill:#fff;stroke:#cfe5e6;stroke-width:2}</style>
+<text x="55" y="58" class="t h">Modelo 3D derivado de biopsia de cáncer cervical</text>
+<g transform="translate(45,105)"><rect class="box" width="235" height="300" rx="22"/><circle cx="118" cy="112" r="60" fill="#e8b4ae"/><path d="M72 118c20-45 75-55 98-8-12 38-63 57-98 8z" fill="#b96565"/><text x="118" y="215" text-anchor="middle" class="t h">Biopsia</text><text x="118" y="248" text-anchor="middle" class="t s">tejido tumoral</text></g>
+<text x="300" y="265" class="a">→</text>
+<g transform="translate(345,105)"><rect class="box" width="235" height="300" rx="22"/><circle cx="118" cy="110" r="66" fill="#eaf4f8" stroke="#79b7c5" stroke-width="3"/><g fill="#c77f7f"><circle cx="85" cy="90" r="12"/><circle cx="120" cy="80" r="11"/><circle cx="145" cy="110" r="13"/><circle cx="103" cy="125" r="10"/><circle cx="137" cy="145" r="9"/></g><text x="118" y="215" text-anchor="middle" class="t h">Procesamiento</text><text x="118" y="248" text-anchor="middle" class="t s">disociación celular</text></g>
+<text x="600" y="265" class="a">→</text>
+<g transform="translate(645,105)"><rect class="box" width="235" height="300" rx="22"/><circle cx="118" cy="112" r="70" fill="#edf7f4" stroke="#70b7a8" stroke-width="3"/><circle cx="118" cy="112" r="47" fill="#9dcbbf"/><circle cx="118" cy="112" r="24" fill="#5c9f91"/><text x="118" y="215" text-anchor="middle" class="t h">Cultivo 3D</text><text x="118" y="248" text-anchor="middle" class="t s">solid hanging-drop</text><text x="118" y="276" text-anchor="middle" class="t s">modelo del paciente</text></g>
+<text x="900" y="265" class="a">→</text>
+<g transform="translate(945,105)"><rect class="box" width="210" height="300" rx="22"/><g transform="translate(35,55)"><rect width="140" height="110" fill="#f4f0fb"/><path d="M10 90L35 65 55 72 78 35 98 48 125 20" fill="none" stroke="#6b64a8" stroke-width="6"/><circle cx="35" cy="65" r="5" fill="#109288"/><circle cx="78" cy="35" r="5" fill="#109288"/><circle cx="125" cy="20" r="5" fill="#109288"/></g><text x="105" y="215" text-anchor="middle" class="t h">Caracterización</text><text x="105" y="248" text-anchor="middle" class="t s">mRNA · lncRNA</text><text x="105" y="276" text-anchor="middle" class="t s">comparación con</text><text x="105" y="301" text-anchor="middle" class="t s">tumor de origen</text></g>
+<text x="55" y="470" class="t s">Esquema conceptual del flujo experimental; no representa resultados clínicos.</text>
+</svg>
